@@ -5,7 +5,7 @@ FROM node:latest
 WORKDIR /react
 
 # Clona el repositorio de GitHub dentro del contenedor
-RUN git clone https://github.com/tu-usuario/tu-repositorio.git .
+RUN git clone https://github.com/juanjoseguevara/react .
 
 # Instala las dependencias de Node.js
 RUN npm install
