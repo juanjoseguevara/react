@@ -4,4 +4,3 @@ services:
     image: node:18.16.0
     ports:
       - '3000:3000'
-    command: node app/index.js
